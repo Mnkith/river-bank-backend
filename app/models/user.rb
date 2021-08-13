@@ -6,4 +6,5 @@ class User < ApplicationRecord
          :jwt_authenticatable, jwt_revocation_strategy: self
 
   has_many :accounts
+  has_many :transactions, through: :accounts 
 end
