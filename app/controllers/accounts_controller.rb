@@ -9,9 +9,10 @@ class AccountsController < ApplicationController
       render json: {
         status: {code: 200, message: 'Account added sucessfully.'},
         account: accnt
-      }, status: :ok
-      # p accnt
-      # byebug
+      }else
+      render json: {
+        status: {message: "account couldn't be created successfully. #{resource.errors.full_messages.to_sentence}"}
+      }, status: :unprocessable_entity
     end
   end 
 
