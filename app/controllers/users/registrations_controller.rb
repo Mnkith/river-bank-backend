@@ -77,7 +77,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
     else
       # byebug
       render json: {
-        status: resource.errors.messages
+        status: resource.errors.messages 
       }, status: :unprocessable_entity
     end
   end
