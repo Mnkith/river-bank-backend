@@ -38,13 +38,7 @@ Ruby version: 2.6.1
 
 * ## License
 
-  This app is under the [MIT](license.txt)
+  This app is under the [MIT](license.txt) license.
 ---
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
