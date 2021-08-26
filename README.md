@@ -13,6 +13,7 @@ Ruby version: 2.6.1
 ---
 
 * ## System dependencies
+  These gems need to be added to the backend gemfile.
     * `gem 'rack-cors'`
     * `gem 'devise'`
     * `gem 'devise-jwt'`
