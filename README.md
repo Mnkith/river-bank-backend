@@ -27,12 +27,19 @@ Ruby version: 2.6.1
 
   * ##### frontend
     * `npm install`
+---
 
 
+* ## Support
+   This app is in it's preliminarily stages and open to all kinds of support, and most certainly appreciated.
+  
+  munkithabid@gmail.com
+---
 
-* Database creation
+* ## License
 
-* Database initialization
+  This app is under the [MIT](license.txt)
+---
 
 * How to run the test suite
 
