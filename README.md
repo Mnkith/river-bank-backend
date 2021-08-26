@@ -12,13 +12,18 @@ Ruby version: 2.6.1
   River bank is a bank app that mimic the user regestration, creating bank accounts and checking the trasations of each bank count. 
 ---
 
-* System dependencies
+* ## System dependencies
+    * `gem 'rack-cors'`
+    * `gem 'devise'`
+    * `gem 'devise-jwt'`
+    * `gem 'fast_jsonapi'`
+---
 
 * ## Configuration
   * ##### backend 
-     1. `bundle install`
-     2. `rails db:migrate`
-     3. `rails db:seed`
+     * `bundle install`
+     * `rails db:migrate`
+
   * ##### frontend
     * `npm install`
 
