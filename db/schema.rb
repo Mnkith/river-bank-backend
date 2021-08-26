@@ -29,8 +29,6 @@ ActiveRecord::Schema.define(version: 2021_08_13_202635) do
     t.date "transaction_date"
     t.decimal "amount", precision: 10, scale: 2
     t.text "description"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
     t.index ["account_id"], name: "index_transactions_on_account_id"
     t.index ["user_id"], name: "index_transactions_on_user_id"
   end

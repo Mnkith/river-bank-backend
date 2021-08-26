@@ -8,7 +8,7 @@ class AccountsController < ApplicationController
     if accnt = Account.create(account_params)
       render json: {
         status: {code: 200, message: 'Account added sucessfully.'},
-        account: accnt
+        account: accnt, include: :transactions
       }else
       render json: {
         status: {message: "account couldn't be created successfully. #{resource.errors.full_messages.to_sentence}"}

@@ -10,7 +10,7 @@ class Account < ApplicationRecord
     fake_transactions.times do
       transaction_date = Date.today - rand(30)
       description = transaction_types[ rand 0..4 ]
-      amount = rand(100..1200).to_f / 100 
+      amount = rand(100..1200) / 100.0
       # byebug
       Transaction.create user_id: self.user_id,
                          account_id: self.id, 
