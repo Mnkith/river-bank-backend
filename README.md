@@ -4,9 +4,8 @@ Link to [river bank frontend](https://github.com/Mnkith/river-bank-frontend)
 ---
 
 * Ruby version: 2.6.1
----
 
-* **Description**
+##**Description**
 
   River bank is a bank app that mimic the user regestration, creating bank accounts and checking the trasations of each bank count. 
 
