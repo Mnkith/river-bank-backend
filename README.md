@@ -1,7 +1,6 @@
 # River Bank 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+link to [river bank frontend](https://github.com/Mnkith/river-bank-frontend)
 
 Things you may want to cover:
 
