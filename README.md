@@ -1,10 +1,10 @@
 # River Bank 
 
 Link to [river bank frontend](https://github.com/Mnkith/river-bank-frontend)
-
-Things you may want to cover:
+---
 
 * Ruby version: 2.6.1
+---
 
 * **Description**
 
