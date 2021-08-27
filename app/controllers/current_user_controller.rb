@@ -3,7 +3,6 @@ class CurrentUserController < ApplicationController
   def index
     render json: {data: current_user.as_json(include: {accounts:{
                                                         except: [
-                                                                 :id,
                                                                  :created_at, 
                                                                  :updated_at, 
                                                                  :user_id
