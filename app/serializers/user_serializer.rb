@@ -11,7 +11,7 @@ class UserSerializer
   attribute :accounts do |user|
     user.accounts.map do |account|
       {
-        id: account.id
+        id: account.id,
         transactions: account.transactions,
         account_type: account.account_type,
         available_balance: account.available_balance,
