@@ -4,7 +4,7 @@ class AccountsController < ApplicationController
 
   # respond_to :json
   def create 
-    
+    #
     if accnt = Account.create(account_params)
       render json: {
         status: {code: 200, message: 'Account added sucessfully.'},
