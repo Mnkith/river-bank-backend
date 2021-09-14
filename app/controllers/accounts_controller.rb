@@ -22,3 +22,4 @@ class AccountsController < ApplicationController
   end
 end
 #echoed from command line
+#added on github
