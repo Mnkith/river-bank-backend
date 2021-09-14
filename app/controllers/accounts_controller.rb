@@ -21,3 +21,4 @@ class AccountsController < ApplicationController
     params.require(:account).permit(:account_type, :number, :exp, :available_balance, :user_id)
   end
 end
+#echoed from command line
