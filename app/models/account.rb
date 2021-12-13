@@ -17,8 +17,6 @@ class Account < ApplicationRecord
                          transaction_date: transaction_date,
                          description: description,
                          amount: amount
-
-
     end
   end
 end
