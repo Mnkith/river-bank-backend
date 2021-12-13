@@ -3,7 +3,7 @@ class AccountsController < ApplicationController
   before_action :authenticate_user!
 
   # respond_to :json
-  def create 
+  def create  
     
     if accnt = Account.create(account_params)
       render json: {
